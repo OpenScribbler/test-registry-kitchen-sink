@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/workspace"
+      ],
+      "env": {
+        "LOG_LEVEL": "info"
+      },
+      "cwd": "/workspace",
+      "type": "stdio",
+      "autoApprove": [
+        "read_file",
+        "list_directory",
+        "search_files"
+      ]
+    }
+  }
+}

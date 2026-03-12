@@ -1,0 +1,22 @@
+kind: loadout
+version: 1
+provider: claude-code
+name: full-stack
+description: >
+  A comprehensive loadout that references skills, agents, rules, hooks,
+  commands, and MCP servers from this test registry. Exercises every
+  content type that Claude Code supports.
+
+rules:
+  - code-style
+skills:
+  - full-skill
+  - user-invocable-skill
+agents:
+  - claude-full-agent
+mcp:
+  - stdio-server
+hooks:
+  - post-edit-lint
+commands:
+  - greet

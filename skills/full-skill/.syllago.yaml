@@ -1,0 +1,9 @@
+id: full-skill
+name: full-skill
+description: A skill exercising every available frontmatter field
+version: "1.0.0"
+author: OpenScribbler
+tags:
+  - test
+  - comprehensive
+  - example

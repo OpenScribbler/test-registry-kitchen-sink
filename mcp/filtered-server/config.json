@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "filtered-api": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@example/mcp-server"
+      ],
+      "env": {
+        "API_KEY": "${EXAMPLE_API_KEY}"
+      },
+      "type": "stdio",
+      "trust": "full",
+      "includeTools": [
+        "search",
+        "read",
+        "summarize"
+      ],
+      "excludeTools": [
+        "admin_delete",
+        "admin_reset"
+      ]
+    }
+  }
+}

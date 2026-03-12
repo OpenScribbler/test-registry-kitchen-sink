@@ -1,0 +1,6 @@
+name: OpenScribbler/test-registry-kitchen-sink
+description: Comprehensive test registry exercising all 7 content types, all 11 providers, and all provider-specific metadata fields
+maintainers:
+  - OpenScribbler
+version: "1.0.0"
+min_syllago_version: "0.6.0"

@@ -1,0 +1,17 @@
+---
+description: Enforce consistent code style across the project
+alwaysApply: false
+globs:
+  - "**/*.go"
+  - "**/*.ts"
+  - "**/*.js"
+---
+
+# Code Style Guidelines
+
+Follow these conventions when writing or reviewing code:
+
+1. Use meaningful variable names that describe purpose
+2. Keep functions under 50 lines
+3. Add comments only when the logic is non-obvious
+4. Prefer early returns over deep nesting

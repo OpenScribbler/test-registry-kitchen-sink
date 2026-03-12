@@ -1,0 +1,9 @@
+id: claude-full-agent
+name: claude-full-agent
+description: An agent exercising all Claude Code-specific frontmatter fields
+version: "1.0.0"
+author: OpenScribbler
+tags:
+  - test
+  - comprehensive
+  - claude-code

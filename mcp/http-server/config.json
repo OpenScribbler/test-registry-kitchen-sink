@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "remote-api": {
+      "url": "https://mcp.example.com/v1",
+      "headers": {
+        "Authorization": "Bearer ${API_TOKEN}",
+        "X-Custom-Header": "test-value"
+      },
+      "type": "streamable-http"
+    }
+  }
+}
